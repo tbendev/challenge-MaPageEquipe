@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 85%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  background-color: aqua;
+}
+
+header .logo {
+  position: absolute;
+  top: 110px;
+  left: 0px;
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+}
+
+header .presentation {
+  position: absolute;
+  width: 450px;
+  top: 110px;
+  right: 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.presentation h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.presentation p {
+  margin: 0;
+  font-weight: 400;
+}
+.parent {
+  max-width: 60%;
+  position: absolute;
+  top: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+img {
+  height: 420px;
+  min-width: 290px;
+}
+
+div.div1,
+.div3,
+.div4,
+.div6 {
+  margin: 0px;
+  margin-bottom: 70px;
+  display: flex;
+}
+
+div.div2,
+div.div5 {
+  margin: 0;
+  margin-top: 50px;
+  align-self: flex-end;
+  display: flex;
+}
+
+footer {
+  position: absolute;
+  top: 1440px;
+  left: 40%;
+  color: grey;
+}
+p {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+.role {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  margin-left: 15px;
+}
